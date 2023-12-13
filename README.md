@@ -1,5 +1,7 @@
 # ![FURU CODE](images/furu_code_logo_32.png) Pie Chart Example
 
+## Demo link [here](https://kennyfully88.github.io/pie_chart_example/)
+
 An example of a pie chart.
 
 ![Pie Chart Example](./images/pie_chart_example.gif)
