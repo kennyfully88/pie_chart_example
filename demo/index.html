@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+    <base href="./" />
+
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta name="description" content="An example of a pie chart" />
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="pie_chart_example" />
+    <link
+      rel="apple-touch-icon"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAABgGlDQ1BzUkdCIElFQzYxOTY2LTIuMQAAKJF1kc8rRFEUxz8GEaMhFpTFJKxmNKiJjTISStIYZbCZefNmRs2beb33JNkqW0WJjV8L/gK2ylopIiVb1sSG6TlvRo1kzu3c87nfe8/p3nPBFckomlkVAC1rGeGxkHcuOu+tecZNA/W00RRTTH14enqSsvZxR4UTb/xOrfLn/rX6hGoqUFErPKTohiU8Ljy5YukObwu3KOlYQvhU2GfIBYVvHT1e5BeHU0X+ctiIhEfA1SjsTf3i+C9W0oYmLC+nU8ssKz/3cV7iVrOzMxI7xNsxCTNGCC8TjDJCkF4GZQ7ip48eWVEmP1DInyInuYrMOqsYLJEijYVP1GWprkpMiq7KyLDq9P9vX81kf1+xujsE1U+2/dYFNVuQ37Ttz0Pbzh9B5SNcZEv5uQMYeBd9s6R17oNnHc4uS1p8B843oPVBjxmxglQp7kom4fUEGqLQfA11C8We/exzfA+RNfmqK9jdg24571n8BiXbZ8iCJhgYAAAACXBIWXMAAAsTAAALEwEAmpwYAAADR0lEQVRIie2UbUhUaRTHf3fGWXXVfBm1SfOlzNGiHWcbKicbs6JIbaAMKyqFbFnZJRaCtjJKJI0CPy1s7ystW0EFYWRSEFGUFgnBTJYFk1PcaRJnytpScV709mFujRNRQfUh8P/lXs5znvN7nvOccwRJkviWUnzT6GOAMcBXUVjg03ybXeeC1nVGtBpqm1maR30Zdjcr/mZyEmc2snI/tl4ApYKUOP4sxqRldj1ePx21qJSsb8IicnQD+vRRgL4BLCI5GhZOA8hM5MUAFhFdGsCQD4uI1w/woIfOJ1QXMejl2A2sDh43YhXx+Am0rK0Xi8iA50MpmphAaR6leRTrPnHx+VMx6wGGRz4vRQFd7uJyF8Cjxk9sW30AIC2B478iCB/zDLlBZQG+JnxNZKhRRwPYXUgSdjcgWwJq3USGGkcfYl9wqdvFiMTjZyHOIQCFQJiCMAWCwFwtSTG02cjdTvk+gFWzgp4pcewpB9h8kkEvZQYAYwNZW3C+4OcMssfLnsq6ujrg5SBDPgqymTlJXohQYdbj8eH1o0tj02Kq5yMI2N1MTMCspyAb9yuSY0mNZ0Mh0REMjxD7I2Y9BysZFynHEb77cR2sog47DS08dDE9lTX5LJsBcNdJ3VnuOUmIoszAH4tQKak8wkMXQGwk+VlsLSFCRcVhut3BuOuM/L5gFKDbReEePH7m5dBuo/k2HbUkxmCsp9+DScs9J5tP4X7N3nKsDu44KMim3cbFTh65+fcXrA46n7DcgDoKYPy40BSduInHT3URV7dxZSv/VJEYw3/t9HuomMO1Gq7VABy6yrsn21/B3QaA4zflJgcMGRTmUJhDflZoinpfAUxLAdBq0GoAev4H5JGSOwGVUi62d0pXo47meT/P+2VLQwtKBcCZjaTGjwIEqtMiArRa2X2ebSUYMgFu2ZEkLCK+YaYkE/lDEOB+Td8A4WEkv03IrZ3y+Hr/kZf8xIQ4jrZhcXD/KUM+4qOYNZl0Nac76HLKzfzbguDONYfoeYkkUWWSTw1UHiEqHKBYxw7zKIAmlrbtNF6g6ymleVSZMGkBrtfw1yV5rJboWGsEKMolM1HOnklLlUk2TkoK4qPD5Z/vv9HGAGOAL9cb13IXElnoet0AAAAASUVORK5CYII="
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAABgGlDQ1BzUkdCIElFQzYxOTY2LTIuMQAAKJF1kc8rRFEUxz8GEaMhFpTFJKxmNKiJjTISStIYZbCZefNmRs2beb33JNkqW0WJjV8L/gK2ylopIiVb1sSG6TlvRo1kzu3c87nfe8/p3nPBFckomlkVAC1rGeGxkHcuOu+tecZNA/W00RRTTH14enqSsvZxR4UTb/xOrfLn/rX6hGoqUFErPKTohiU8Ljy5YukObwu3KOlYQvhU2GfIBYVvHT1e5BeHU0X+ctiIhEfA1SjsTf3i+C9W0oYmLC+nU8ssKz/3cV7iVrOzMxI7xNsxCTNGCC8TjDJCkF4GZQ7ip48eWVEmP1DInyInuYrMOqsYLJEijYVP1GWprkpMiq7KyLDq9P9vX81kf1+xujsE1U+2/dYFNVuQ37Ttz0Pbzh9B5SNcZEv5uQMYeBd9s6R17oNnHc4uS1p8B843oPVBjxmxglQp7kom4fUEGqLQfA11C8We/exzfA+RNfmqK9jdg24571n8BiXbZ8iCJhgYAAAACXBIWXMAAAsTAAALEwEAmpwYAAADR0lEQVRIie2UbUhUaRTHf3fGWXXVfBm1SfOlzNGiHWcbKicbs6JIbaAMKyqFbFnZJRaCtjJKJI0CPy1s7ystW0EFYWRSEFGUFgnBTJYFk1PcaRJnytpScV709mFujRNRQfUh8P/lXs5znvN7nvOccwRJkviWUnzT6GOAMcBXUVjg03ybXeeC1nVGtBpqm1maR30Zdjcr/mZyEmc2snI/tl4ApYKUOP4sxqRldj1ePx21qJSsb8IicnQD+vRRgL4BLCI5GhZOA8hM5MUAFhFdGsCQD4uI1w/woIfOJ1QXMejl2A2sDh43YhXx+Am0rK0Xi8iA50MpmphAaR6leRTrPnHx+VMx6wGGRz4vRQFd7uJyF8Cjxk9sW30AIC2B478iCB/zDLlBZQG+JnxNZKhRRwPYXUgSdjcgWwJq3USGGkcfYl9wqdvFiMTjZyHOIQCFQJiCMAWCwFwtSTG02cjdTvk+gFWzgp4pcewpB9h8kkEvZQYAYwNZW3C+4OcMssfLnsq6ujrg5SBDPgqymTlJXohQYdbj8eH1o0tj02Kq5yMI2N1MTMCspyAb9yuSY0mNZ0Mh0REMjxD7I2Y9BysZFynHEb77cR2sog47DS08dDE9lTX5LJsBcNdJ3VnuOUmIoszAH4tQKak8wkMXQGwk+VlsLSFCRcVhut3BuOuM/L5gFKDbReEePH7m5dBuo/k2HbUkxmCsp9+DScs9J5tP4X7N3nKsDu44KMim3cbFTh65+fcXrA46n7DcgDoKYPy40BSduInHT3URV7dxZSv/VJEYw3/t9HuomMO1Gq7VABy6yrsn21/B3QaA4zflJgcMGRTmUJhDflZoinpfAUxLAdBq0GoAev4H5JGSOwGVUi62d0pXo47meT/P+2VLQwtKBcCZjaTGjwIEqtMiArRa2X2ebSUYMgFu2ZEkLCK+YaYkE/lDEOB+Td8A4WEkv03IrZ3y+Hr/kZf8xIQ4jrZhcXD/KUM+4qOYNZl0Nac76HLKzfzbguDONYfoeYkkUWWSTw1UHiEqHKBYxw7zKIAmlrbtNF6g6ymleVSZMGkBrtfw1yV5rJboWGsEKMolM1HOnklLlUk2TkoK4qPD5Z/vv9HGAGOAL9cb13IXElnoet0AAAAASUVORK5CYII="
+    />
+
+    <title>Pie Chart Example</title>
+    <link rel="manifest" href="./manifest.json" />
+
+    <script>
+      // The value below is injected by flutter build, do not touch.
+      const serviceWorkerVersion = '2719937378';
+    </script>
+    <!-- This script adds the flutter initialization JS code -->
+    <script src="./flutter.js" defer></script>
+  </head>
+  <body>
+    <script>
+      window.addEventListener('load', function (ev) {
+        // Download main.dart.js
+        _flutter.loader.loadEntrypoint({
+          serviceWorker: {
+            serviceWorkerVersion: serviceWorkerVersion,
+          },
+          onEntrypointLoaded: function (engineInitializer) {
+            engineInitializer.initializeEngine().then(function (appRunner) {
+              appRunner.runApp();
+            });
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
